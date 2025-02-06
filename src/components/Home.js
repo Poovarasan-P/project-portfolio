@@ -23,15 +23,15 @@ const Home = () => {
         <div className="social-links">
           <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
              className="social-link">
-           {/*  <Github size={24} /> */}
+           <i class="fa-brands fa-github"></i>
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
              className="social-link">
-            {/* <Linkedin size={24} /> */}
+            <i class="fa-brands fa-linkedin"></i>
           </a>
           <a href="mailto:contact@example.com"
              className="social-link">
-           {/*  <Mail size={24} /> */}
+           <i class="fa-solid fa-envelope"></i>
           </a>
         </div>
       </div>
