@@ -35,10 +35,154 @@
   .nav-item {
     color: var(--white);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
   }
   
   .nav-item:hover {
     text-decoration: underline;
   }
+  /*  */
+  /* Base styles */
+.container {
+    min-height: 100vh;
+    background-color: var(--bgcolor);
+  }
   
+  /* Navigation */
+  .navbar {
+    background-color: var(--bgcolor);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .nav-content {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    height: 4rem;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color:var(--white);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .nav-link:hover {
+    color: var(--text);
+  }
+  
+  /* Content */
+  .content {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .hero-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color:var(--text);
+    margin-bottom: 1rem;
+  }
+  
+  .highlight {
+    color: #2563eb;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+    color: var(--text);
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-text {
+    font-size: 1.125rem;
+    color: #374151;
+    margin-bottom: 1rem;
+  }
+  
+  /* Social Links */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .social-link {
+    color: #4b5563;
+    transition: color 0.2s;
+  }
+  
+  .social-link:hover {
+    color:var(--sptext);
+  }
+  
+  /* About Section */
+  .about {
+    margin-top: 5rem;
+  }
+  
+  .about-title {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: var(--sptext);
+    margin-bottom: 2rem;
+  }
+  
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .about-text p {
+    color: #4b5563;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .about-image {
+    position: relative;
+    height: 24rem;
+   
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 65%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Page Titles */
+  .page-title {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 2rem;
+  }
+  
+  .page-text {
+    color: #4b5563;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .about-content {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
