@@ -134,7 +134,7 @@ const CreativePage = () => {
             </a>
           </div>
           <div>
-          <img src={bodhi3} alt="bodhi" className="hero-image" />
+          <img src={bodhi4} alt="bodhi" className="hero-image" />
           <p>Unleash your full learning potential with Bodhi,  where the
 pursuit of knowledge meets effortless discovery. Say
 goodbye to the search struggle and hello to tailored, top-
