@@ -2,7 +2,7 @@
 
 import  React from "react"
 import { useEffect, useRef, useState } from "react"
-import bodhi1 from "../assets/bodhi.png";
+import bodhi1 from "../assets/bodhi.PNG";
 import bodhi2 from "../assets/bodhi2.PNG";
 import bodhi3 from "../assets/bodhi4.PNG";
 import "./CreativePage.css"
