@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+
 import "./Styles.css";
 const Home = () => {
   return (
@@ -61,6 +63,26 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+       {/* Featured Project Section */}
+      <div className="featured-project">
+        <h2 className="featured-title">Featured Project</h2>
+        <Link to="/creative" className="project-card">
+          
+          <div className="project-card-content">
+            <h3>creative@home</h3>
+            
+          </div>
+        </Link>
+      </div>
+                                                                                                                                                                                   
+
+
+
+
+
+
+
     </div>
  
     </div>

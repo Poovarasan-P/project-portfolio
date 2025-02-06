@@ -4,6 +4,7 @@ import Navbar from "./components/header/Navbar";
 import Home from "./components/Home";
 import Project from "./components/Project";
 import Blog from "./components/Blog";
+import Creative from "./components/Creative";
 function App() {
   return (
     <>
@@ -14,7 +15,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<Project />} />
-            <Route path="/mission" element={<Blog />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/creative" element={<Creative />} />
             
           </Routes>
         </div>
