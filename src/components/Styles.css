@@ -11,6 +11,7 @@
     padding: 0 160px;
     font-family: Arial, sans-serif;
     background-color: var(--bgcolor);
+    color: white;
   }
   
  /* Navigation Bar */
@@ -21,6 +22,9 @@
     background-color: var(--maincolor);
     padding: 15px 30px;
     border-bottom:0.8px solid #313131;
+    
+    z-index: 100;
+    
   }
   
   .logo {
