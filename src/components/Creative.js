@@ -2,7 +2,9 @@
 
 import  React from "react"
 import { useEffect, useRef, useState } from "react"
-
+import bodhi1 from "../assets/bodhi.png";
+import bodhi2 from "../assets/bodhi2.PNG";
+import bodhi3 from "../assets/bodhi4.PNG";
 import "./CreativePage.css"
 
 const sections = [
@@ -116,17 +118,29 @@ const CreativePage = () => {
         
   
         <div className="div1">
-          <img src="/placeholder.svg" alt="Creative@Home" className="hero-image" />
-          <h1>Creative@Home</h1>
-          <p>A website that provides a roadmap for various fields in Programming and helps people learn to code for free.</p>
+          <div className="imgdiv"> 
+            <img src={bodhi1} alt="bodhi" className="hero-image" />
+            <img src={bodhi2} alt="bodhi" className="hero-image" /></div>
+          
+          <h1>Bodhi</h1>
+          <p>Bodhi is a tutor-finding app designed to bridge the educational gap for rural students while providing tutors with flexible teaching opportunities and income generation.</p>
           <div className="stats-links">
-            <span>1406 views</span>
+            <span>1406 views -</span>
             <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-               Github
+            <i className="fa-brands fa-github"></i> Github -
             </a>
             <a href="https://example.com" target="_blank" rel="noopener noreferrer">
-               Live Site
+            <i class="fa-solid fa-link"></i>Live Site
             </a>
+          </div>
+          <div>
+          <img src={bodhi3} alt="bodhi" className="hero-image" />
+          <p>Unleash your full learning potential with Bodhi,  where the
+pursuit of knowledge meets effortless discovery. Say
+goodbye to the search struggle and hello to tailored, top-
+notch tutoring, right at your fingertips. Welcome to a 
+smarter way to excel academically.</p>
+         
           </div>
         </div>
         <hr/>

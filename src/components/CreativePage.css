@@ -1,4 +1,9 @@
-
+:root {
+  --bgcolor: #080808;
+  --text:grey;
+  --white:white;
+  --sptext:rgb(59, 150, 59);
+}
   
   .creative-page {
     display: flex;
@@ -11,13 +16,24 @@
   .div1 {
     width: 100%;
     padding: 2rem;
-    text-align: center;
+    text-align:left;
   }
-  
+  .div1 p{
+    letter-spacing: 120%;
+  }
+  .div1 .imgdiv{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .div{
+    border-bottom: 1px solid var(--text);
+  }
   .hero-image {
-    max-width: 100%;
+    max-width:100%;
     height: auto;
     margin-bottom: 1rem;
+    border-radius: 10px;
   }
   
   h1 {
@@ -27,17 +43,20 @@
   
   .stats-links {
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     gap: 1rem;
     margin-top: 1rem;
   }
   
   .stats-links a {
-    color: white;
+    color:var(--sptext);
     text-decoration: none;
     display: flex;
     align-items: center;
     gap: 0.5rem;
+  }
+  .stats-links i{
+    color: var(--white);
   }
   
   .content-wrapper {
