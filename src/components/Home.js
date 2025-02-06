@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 import "./Styles.css";
+import profile from "../assets/image.png";
 const Home = () => {
   return (
     <div>
@@ -12,44 +13,42 @@ const Home = () => {
           <span className="highlight">Abdul Rahman.</span>
         </h1>
         <p className="hero-subtitle">
-          Software Engineer. A self-taught developer with an<br />
+          <span>Software Engineer.</span> A self-taught developer with an<br />
           interest in Computer Science.
         </p>
         <p className="hero-text">
-          🚀 Currently specializing in Frontend (React / Next.js)
+          🚀 Currently specializing in Frontend (React / Next.js)<br/>⚡ Frontend Engineer at <span>GGL</span>
         </p>
-        <p className="hero-text">
-          ⚡ Frontend Engineer at GGL
-        </p>
+      
         
         <div className="social-links">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
-             className="social-link">
-           <i class="fa-brands fa-github"></i>
-          </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
-             className="social-link">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a href="mailto:contact@example.com"
-             className="social-link">
-           <i class="fa-solid fa-envelope"></i>
-          </a>
-        </div>
-      </div>
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-box">
+        <i className="fa-brands fa-github"></i>
+        <p>Github</p>
+      </a>
+      
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-box">
+        <i className="fa-brands fa-linkedin"></i>
+        <p>LinkedIn</p>
+      </a>
+
+      <a href="mailto:contact@example.com" className="social-box">
+        <i className="fa-solid fa-envelope"></i>
+        <p>Email</p>
+      </a>
+       </div>
+     </div>
 
       <div className="about">
-        <h2 className="about-title">About Me</h2>
+        <h2 className="about-title">⚡ About Me</h2>
         <div className="about-content">
           <div className="about-text">
             <p>
               Hey! I'm Abdul Rahman, I've been close to a computer since an early age, and been passionate about it ever since.
             </p>
             <p>
-              I really liked to build stuff using no-code tools back in 2010, and from that, I explored how to code myself, fast-forward to today, I do programming in various languages and technologies, and had the privilege to worked in a Recruitment Company and a SaaS Company.
-            </p>
-            <p>
-              I'm interested in building something awesome with code and automate tasks with code, currently focused on Web & Mobile Development, Open Source and Competitive Programming.
+              I really liked to build stuff using <span>no-code tools</span> back in 2010, and from that, I explored how to code myself, fast-forward to today, I do programming in various languages and technologies, and had the privilege to worked in a <span>Recruitment Company</span> and <span>a SaaS Company.</span>
+              I'm interested in building something awesome with code and automate tasks with code, currently focused on <span>Web & Mobile Development, Open Source</span> and <span>Competitive Programming.</span>
             </p>
             <p>
               When I'm not coding I play games with my friends, watch some show on Netflix, or if the weather's good, play basketball! 🏀
@@ -57,7 +56,7 @@ const Home = () => {
           </div>
           <div className="about-image">
             <img
-              src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+              src={profile}
               alt="Abdul Rahman"
             />
           </div>
