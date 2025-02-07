@@ -2,9 +2,9 @@
 
 import  React from "react"
 import { useEffect, useRef, useState } from "react"
-import bodhi1 from "../assets/bodhi.png";
-import bodhi2 from "../assets/bodhi2.png";
-import bodhi4 from "../assets/bodhi4.png";
+import Bodhi1 from "../assets/bodhi.png";
+import Bodhi2 from "../assets/bodhi2.png";
+import Bodhi3 from "../assets/bodhi3.png";
 import "./CreativePage.css"
 
 const sections = [
@@ -119,8 +119,8 @@ const CreativePage = () => {
   
         <div className="div1">
           <div className="imgdiv"> 
-            <img src={bodhi1} alt="bodhi" className="hero-image" />
-            <img src={bodhi2} alt="bodhi" className="hero-image" /></div>
+            <img src={Bodhi1} alt="bodhi" className="hero-image" />
+            <img src={Bodhi2} alt="bodhi" className="hero-image" /></div>
           
           <h1>Bodhi</h1>
           <p>Bodhi is a tutor-finding app designed to bridge the educational gap for rural students while providing tutors with flexible teaching opportunities and income generation.</p>
@@ -134,7 +134,7 @@ const CreativePage = () => {
             </a>
           </div>
           <div>
-          <img src={bodhi4} alt="bodhi" className="hero-image" />
+          <img src={Bodhi3} alt="bodhi" className="hero-image" />
           <p>Unleash your full learning potential with Bodhi,  where the
 pursuit of knowledge meets effortless discovery. Say
 goodbye to the search struggle and hello to tailored, top-
