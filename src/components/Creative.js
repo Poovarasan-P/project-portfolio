@@ -2,9 +2,9 @@
 
 import  React from "react"
 import { useEffect, useRef, useState } from "react"
-import Bodhi1 from "../assets/bodhi.png";
-import Bodhi2 from "../assets/bodhi2.png";
-import Bodhi3 from "../assets/bodhi3.png";
+import Bodhi1 from "../assets/Bodhi.png";
+import Bodhi2 from "../assets/Bodhi2.png";
+import Bodhi3 from "../assets/Bodhi3.png";
 import "./CreativePage.css"
 
 const sections = [

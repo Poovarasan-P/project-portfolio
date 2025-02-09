@@ -31,7 +31,7 @@ const Home = () => {
       const projects = [
         {
           title: "Bodhi  ",
-          image: require("../assets/bodhi.png"), 
+          image: require("../assets/Bodhi.png"), 
           description:
             "A web app to analyze whether an opinion on a specific topic is positive or negative based on recent tweets using Natural Language Processing.",
           tech: ["React", "Python", "Chart.js"],
